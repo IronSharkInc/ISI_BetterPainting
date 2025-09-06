@@ -1,0 +1,10 @@
+<IronSharkInc>
+
+    <!-- increase lot size to match chemistry station for consistency -->
+    <setattribute xpath="//recipe[@name='resourcePaint' and @craft_area='campfire']" name="count">500</setattribute>
+
+    <!-- increase ingredient cost to maintain ratio -->
+    <setattribute xpath="//recipe[@name='resourcePaint' and @craft_area='campfire']/ingredient[@name='resourceCropChrysanthemumPlant']" name="count">2</setattribute>
+    <setattribute xpath="//recipe[@name='resourcePaint' and @craft_area='campfire']/ingredient[@name='drinkJarBoiledWater']" name="count">2</setattribute>
+
+</IronSharkInc>

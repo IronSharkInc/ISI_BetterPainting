@@ -1,0 +1,14 @@
+<IronSharkInc>
+
+    <!-- Increase paint stack size from 1k to 10k -->
+    <set xpath="//item[@name='resourcePaint']/property[@name='Stacknumber']/@value">10000</set>
+
+    <!-- Make the normal paintbrush match the precision, range, and speed of the dev paint brush (but without infinite paint) -->
+    <append xpath="//items/item[@name='meleeToolPaintTool']">
+        <passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0"/>
+        <passive_effect name="SpreadMultiplierHip" operation="base_set" value="0"/>
+    </append>
+    <set xpath="//items/item[@name='meleeToolPaintTool']/property/property[@name='Range']/@value">50</set>
+    <set xpath="//items/item[@name='meleeToolPaintTool']/property/property[@name='Delay']/@value">.19</set>
+
+</IronSharkInc>

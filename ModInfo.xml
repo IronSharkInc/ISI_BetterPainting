@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="ISI-BetterPainting" />
+	<DisplayName value="ISI Better Painting" />
+	<Version value="2.2.0.0" />
+	<Description value="Makes painting better - better brushes, paint stacks higher, and makes it more obvious that crafting paint on the Chemistry Station is faster and cheaper." />
+	<Author value="IronSharkInc" />
+	<Website value="https://github.com/IronSharkInc" />
+</xml>
