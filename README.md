@@ -22,3 +22,17 @@ This change just makes it more obvious in-game that the Chemistry Station produc
 ![Paint Description](images/paint-description-zoom.png)
 ![Campfire Recipe](images/recipe-fire-zoom-1.png)
 ![Chemistry Station Recipe](images/recipe-chem-zoom-1.png)
+
+## Testing
+
+### Paintbrush
+
+- Paint stacks to 10,000
+- Paintbrush has zero spread
+- Paintbrush range is 50 meters
+- Paintbrush delay is 0.19 seconds
+
+### Paint
+
+- Campfire paint recipe makes 500
+- Recipe costs: 2 chrysanthemum, 2 water
